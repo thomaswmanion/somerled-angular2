@@ -1,0 +1,10 @@
+<nav class="ui main menu stackable inverted">
+    <div (click)="flipShowNavItems()" class="item logo">
+        <span><b>SOMERLED</b> SHELTIES</span> <b class="ignore-big go-right" [ngClass]="{hide: !showNavItems}">-</b><b class="ignore-big go-right" [ngClass]="{hide: showNavItems}">+</b>
+    </div>
+    <a (click)="goTo('/Home')" class="item" [ngClass]="{active: isLocationEqual(''), hide: !showNavItems}">Home</a>
+    <a (click)="goTo('/Current')" class="item" [ngClass]="{active: isLocationEqual('/current'), hide: !showNavItems}">Current</a>
+    <a (click)="goTo('/Retired')" class="item" [ngClass]="{active: isLocationEqual('/retired'), hide: !showNavItems}">Retired</a>
+    <a (click)="goTo('/BreedingPhilosophy')" class="item" [ngClass]="{active: isLocationEqual('/breeding-philosophy'), hide: !showNavItems}">Breeding Philosophy</a>
+    <a (click)="goTo('/AboutUs')" class="item" [ngClass]="{active: isLocationEqual('/about-us'), hide: !showNavItems}">About Us</a>
+</nav>

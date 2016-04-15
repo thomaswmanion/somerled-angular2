@@ -1,0 +1,21 @@
+<br>
+<div class="ui container text-bg">
+    <div class="ui two column stackable grid">
+        <div id="dog-header" class="column">
+            <div id="dog-desc" class="text-bg">
+                <h1>{{dog.showName}}</h1>
+                <div class="ui divider"></div>
+                <p><strong><i>"{{dog.callName}}"</i></strong> Description about dog. Description about dog. Description about dog. Description about dog. Description about dog. Description about dog. Description about dog. Description about dog. Description about dog. </p>
+            </div>
+        </div>
+        <div class="column">
+            <img (click)="viewImage(dog.mainImage)" class="ui large clickable rounded image" src="{{dog.mainImage}}">
+        </div>
+    </div>
+</div>
+
+
+<div class="ui basic modal {{timestamp}}">
+  <i class="close icon"></i>
+  <img class="ui fluid image" style="max-height: 100%; " src="{{curImage}}">
+</div>
