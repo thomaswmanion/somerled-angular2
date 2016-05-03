@@ -4,14 +4,16 @@ import {Dog} from '../dog/dog';
 import {DogService} from '../dog/dog.service';
 
 @Component({
-	selector: 'retired',
-	template: require('./retired.html'),
+	selector: 'girls',
+	template: require('../dog/view-dogs.html'),
 	providers: [DogService]
 })
 
-export class Retired implements OnInit {
-	constructor(private dogService: DogService, private router: Router) {
+export class Girls implements OnInit {
+	dogs: Array<Dog>;
 
+	constructor(private dogService: DogService, private router: Router) {
+		this.dogs = dogService.girls;
 	}
 
 	ngOnInit() {

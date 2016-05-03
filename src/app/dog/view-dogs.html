@@ -1,0 +1,16 @@
+<br>
+<div class="ui three stackable cards container">
+    <div *ngFor="#dog of dogs" class="ui card no-bg">
+        <div (click)="viewMore(dog)" class="image">
+            <img src="{{dog.mainImage}}" class="clickable">
+        </div>
+        <div class="content">
+            <span class="header">{{dog.showName}}</span>
+            <div class="meta">
+                <span>{{dog.callName}} </span>
+            </div>
+            <div class="description">{{dog.description}}</div>
+        </div>
+    </div>
+</div>
+<br>

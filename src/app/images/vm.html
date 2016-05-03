@@ -1,0 +1,474 @@
+<!doctype html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+<head>
+  <meta charset="utf-8">
+  <script nonce='2feb9d2b9b025c8d58f3b0895c41889bfc52c15610aec14546bb6f5313081eeb1373f5938fba5cfe161abc8258efc8c767df7cd5106ab4dce858de995cf05397' type='text/javascript'>window.NREUM||(NREUM={});NREUM.info = {"agent":"","beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"ba86f45fc4","applicationID":"9556514","applicationTime":217.279418,"transactionName":"M1BXZxFZVkQFURBdVwoafVITURdwIWZLG0gFVl5SBF0XTBRTB19ZA1BI","queueTime":0,"ttGuid":"8f6e439abd40b8","agentToken":null}; window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(e,t){return function(){o(e,[(new Date).getTime()].concat(a(arguments)),null,t)}}var o=e("handle"),i=e(2),a=e(3);"undefined"==typeof window.newrelic&&(newrelic=NREUM);var u=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit"],c=["addPageAction"],f="api-";i(u,function(e,t){newrelic[t]=r(f+t,"api")}),i(c,function(e,t){newrelic[t]=r(f+t)}),t.exports=newrelic,newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),o("err",[e,(new Date).getTime()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(0>o?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?u(e,a,i):i()}function n(n,r,o){e&&e(n,r,o);for(var i=t(o),a=l(n),u=a.length,c=0;u>c;c++)a[c].apply(i,r);var s=f[g[n]];return s&&s.push([m,n,r,i]),i}function p(e,t){w[e]=l(e).concat(t)}function l(e){return w[e]||[]}function d(e){return s[e]=s[e]||o(n)}function v(e,t){c(e,function(e,n){t=t||"feature",g[n]=t,t in f||(f[t]=[])})}var w={},g={},m={on:p,emit:n,get:d,listeners:l,context:t,buffer:v};return m}function i(){return new r}var a="nr@context",u=e("gos"),c=e(2),f={},s={},p=t.exports=o();p.backlog=f},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!w++){var e=v.info=NREUM.info,t=s.getElementsByTagName("script")[0];if(e&&e.licenseKey&&e.applicationID&&t){c(l,function(t,n){e[t]||(e[t]=n)});var n="https"===p.split(":")[0]||e.sslForHttp;v.proto=n?"https://":"http://",u("mark",["onload",a()],null,"api");var r=s.createElement("script");r.src=v.proto+e.agent,t.parentNode.insertBefore(r,t)}}}function o(){"complete"===s.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=e("handle"),c=e(2),f=window,s=f.document;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:f.XMLHttpRequest,REQ:f.Request,EV:f.Event,PR:f.Promise,MO:f.MutationObserver},e(1);var p=""+location,l={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-918.min.js"},d=window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent),v=t.exports={offset:a(),origin:p,features:{},xhrWrappable:d};s.addEventListener?(s.addEventListener("DOMContentLoaded",i,!1),f.addEventListener("load",r,!1)):(s.attachEvent("onreadystatechange",o),f.attachEvent("onload",r)),u("mark",["firstbyte",a()],null,"api");var w=0},{}]},{},["loader"]);</script>
+  <title>machine_learning</title>
+
+    <meta name="description" content="Machine learning library for Node.js. You can also use this library in browser.">
+    <meta property="og:description" content="Machine learning library for Node.js. You can also use this library in browser.">
+    <meta property="og:title" content="machine_learning">
+    <meta property="og:url" content="https://www.npmjs.com/package/machine_learning">
+    <meta property="og:site_name" content="npm">
+    <meta name="keywords" content="non-negative matrix factorization,nmf,genetic algorithm,decision tree,k nearest neighbors,knn,kmeans,support vector machine,svm,neural network,ml,machine learning">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:url" content="https://www.npmjs.com/package/machine_learning">
+    <meta name="twitter:title" content="npm: machine_learning">
+    <meta name="twitter:description" content="Machine learning library for Node.js. You can also use this library in browser.">
+  
+  
+  <meta http-equiv="cleartype" content="on" />
+  
+  <meta name="apple-mobile-web-app-capable" content="no">
+  
+  
+  <meta name="viewport" content="width=device-width,minimum-scale=1.0,initial-scale=1,user-scalable=yes">
+  
+  <meta name="x-npm:ga:id" content="UA-47041310-1">
+  <meta name="x-npm:ga:dimensions" content="{&quot;aboveChrome&quot;:&quot;dimension1&quot;,&quot;belowHeader&quot;:&quot;dimension3&quot;,&quot;packagePage&quot;:&quot;dimension2&quot;}">
+  
+  <link rel="canonical" href="https://www.npmjs.com/package/machine_learning">
+  <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="npm">
+
+    <link rel="stylesheet" media="all" href="/static/css/index.0854e9c6.css">
+
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <![endif]-->
+
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700">
+  
+    <script src="/static/js/index.min.bc5853f2.js"></script>
+    <style>
+      .marketing {
+  margin: 0px;
+  margin-left: -10px;
+  margin-bottom: 40px;
+  padding: 0px 0px;
+  font-size: 15px;
+  font-style: normal;
+  fond-variant: normal;
+  fort-weight: normal;
+  background: rgba(0, 0, 0, 0.02);
+  border-radius: 2px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  color: rgba(0, 0, 0, 0.4);
+  text-decoration: none;
+  letter-spacing: -0.03em;
+  line-height: 22.5px;
+  }
+  
+  .marketing a {
+  font-weight: 400;
+  text-decoration: none;
+  color: #cb3837;
+  }
+  
+  .marketing h3 {
+  display: block;
+  margin: 0;
+  padding: 20px 0 10px 0;
+  font-size: 20px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 22px;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .marketing h3 a {
+  color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .marketing h3 a:hover {
+  color: #cb3837;
+  }
+  
+  .marketing p {
+  line-height: 22.5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  }
+  
+  .marketing p a {
+  white-space: nowrap;
+  }
+  
+  #marketing-texthed {
+  margin-left: 10px;
+  }
+    </style>
+  <link rel="apple-touch-icon" sizes="57x57" href="/static/images/touch-icons/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/static/images/touch-icons/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/static/images/touch-icons/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/static/images/touch-icons/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/static/images/touch-icons/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/static/images/touch-icons/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/static/images/touch-icons/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/static/images/touch-icons/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/static/images/touch-icons/apple-touch-icon-180x180.png">
+  <link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 1)" href="/static/images/touch-icons/apple-touch-startup-image-1024x748.png">
+  <link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)" href="/static/images/touch-icons/apple-touch-startup-image-1536x2008.png">
+  <link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2)" href="/static/images/touch-icons/apple-touch-startup-image-2048x1496.png">
+  <link rel="apple-touch-startup-image" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 1)" href="/static/images/touch-icons/apple-touch-startup-image-320x460.png">
+  <link rel="apple-touch-startup-image" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" href="/static/images/touch-icons/apple-touch-startup-image-640x1096.png">
+  <link rel="apple-touch-startup-image" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2)" href="/static/images/touch-icons/apple-touch-startup-image-640x920.png">
+  <link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 1)" href="/static/images/touch-icons/apple-touch-startup-image-768x1004.png">
+  <link rel="icon" type="image/png" href="/static/images/touch-icons/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="/static/images/touch-icons/favicon-230x230.png" sizes="230x230">
+  <link rel="icon" type="image/png" href="/static/images/touch-icons/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="/static/images/touch-icons/android-chrome-192x192.png" sizes="192x192">
+  <link rel="icon" type="image/png" href="/static/images/touch-icons/coast-228x228.png" sizes="228x228">
+  <link rel="icon" type="image/png" href="/static/images/touch-icons/favicon-16x16.png" sizes="16x16">
+  <link rel="manifest" href="/static/images/touch-icons/manifest.json">
+  <link rel="shortcut icon" href="/static/images/touch-icons/favicon.ico">
+  <link rel="yandex-tableau-widget" href="/static/images/touch-icons/yandex-browser-manifest.json">
+  <meta property="og:image" content="https://www.npmjs.com/static/images/touch-icons/open-graph.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="msapplication-TileColor" content="#cb3837">
+  <meta name="msapplication-TileImage" content="/static/images/touch-icons/mstile-144x144.png">
+  <meta name="msapplication-config" content="/static/images/touch-icons/browserconfig.xml">
+  <meta name="theme-color" content="#cb3837">
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebSite" data-crumb="_QfuvBfFUW22rdF05QV3UAIyLsF7Pg5l26uoS37y4O2">
+  <meta itemprop="url" content="https://www.npmjs.com/">
+
+
+  <header class="anonymous ">
+    <!-- logo -->
+    <div class="header-item brand-container">
+      <div class="logo-container" id='npm-logo'>
+        <a href="/"><img src="/static/images/npm-logo.svg" alt="npm logo" /></a>
+      </div>
+    </div>
+    <!-- /logo -->
+  
+    <!-- search -->
+    <div class="header-item header-search-container">
+      <form class="site-search" id="npm-search" action="/search" method="get" itemprop="potentialAction" itemscope itemtype="http://schema.org/SearchAction">
+        <meta itemprop="target" content="https://www.npmjs.com/search?q={q}">
+        <div id="site-search-container">
+            <input name="q" value="" type="search" id="site-search" placeholder="find packages" tabindex="1" autocorrect="off" autocapitalize="off" itemprop="query-input" />
+        </div>
+        <input type="submit"/>
+      </form>
+    </div>
+  
+  
+    <!-- menu 1 -->
+    <div class="header-item user-info-container">
+      <div class="user-info">
+          <ul class="user-info-salutation single">
+            <li><a href="/signup">sign up</a> or <a href="/login">log in</a></li>
+            <li><a href="/login"><span class="a11y-only">log in</span><span class="icon icon-wombat-head-login"></a></li>
+          </ul>
+      </div> <!-- .user-info -->
+    </div>
+    <!-- /menu 1 -->
+  
+    <!-- menu 2 -->
+    <div class="header-item header-nav-menu-container">
+      <a href="#" id="npm-expansions" class="npm-expansions" data-event-trigger="click" data-event-name="npm-expansions">node package manager</a>
+  
+      <div class="nav-menu-container" role="navigation">
+        <a class="nav-toggle drop-down-menu-toggle" href="#product-navigation"><span class="a11y-only">Toggle Navigation</span>
+          <img alt="mobile navigation menu" src="/static/images/mobile-menu.png" />
+        </a>
+  
+  
+        <div class="drop-down-menu-container" role="menu">
+          <nav id="product-navigation" class="product-navigation drop-down-menu">
+            <ul class="drop-down-menu-section products-list">
+              <li><a id="nav-enterprise-link" href="/npm/enterprise">npm Enterprise</a></li>
+              <li><a id="nav-private-link" href="/npm/private-packages" data-event-trigger="click" data-event-name="private-modules-nav-link">npm Private Packages</a></li>
+              <li><a id="nav-oss-link" href="/npm/open-source">npm Open Source</a></li>
+              <li><a id="nav-docs-link" href="https://docs.npmjs.com">documentation</a></li>
+              <li><a id="nav-support-link" href="/support">support</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <!-- /menu 2 -->
+  
+  
+  
+  </header>
+
+
+    <div class="container content">
+      
+<div class="content-column">
+
+  <h1 class="package-name">
+    <a href="/package/machine_learning">machine_learning</a>
+      <i class="icon-public"></i>
+  </h1>
+  <p class="package-description">Machine learning library for Node.js. You can also use this library in browser.</p>
+
+  <form class="star">
+    <input type="hidden" name="name" value="machine_learning">
+    <input id="star-input" type="checkbox" name="isStarred" value="true" >
+    <label for="star-input" class="icon-star"></label>
+      <input type="hidden" name="crumb" value="_QfuvBfFUW22rdF05QV3UAIyLsF7Pg5l26uoS37y4O2"/>
+  </form>
+
+  <div id="readme" class="markdown">
+      <h1 id="user-content-machine_learning" class="deep-link package-name-redundant"><a href="#machine_learning">machine_learning</a></h1>
+<p class="package-description-redundant">Machine learning library for node.js. You can also use this library in browser.</p>
+<p><a href="http://joonku.com/project/machine_learning">Demo in Browser!</a></p>
+<p><a href="http://joonku.com/project/machine_learning/apidoc">API Documentation</a></p>
+<h2 id="user-content-installation" class="deep-link"><a href="#installation">Installation</a></h2>
+<p>Node.js</p>
+<pre><code><pre class="editor editor-colors"><div class="line"><span class="text"><span>$&#xA0;npm&#xA0;install&#xA0;machine_learning</span></span></div></pre></code></pre>
+<p>To use this library in browser, include <a href="http://joonku.com/js/machine_learning.min.js">machine_learning.min.js</a> file.</p>
+<pre><code><pre class="editor editor-colors"><div class="line"><span class="text"><span>&lt;script&#xA0;src=&quot;/js/machine_learning.min.js&quot;&gt;&lt;/script&gt;</span></span></div></pre></code></pre>
+<p><a href="http://joonku.com/project/machine_learning">Demo in Browser!</a></p>
+<p>Here is the <a href="http://joonku.com/project/machine_learning/apidoc">API Documentation</a>. (Still in progress)</p>
+<h2 id="user-content-features" class="deep-link"><a href="#features">Features</a></h2>
+<ul>
+<li>Logistic Regression</li>
+<li>MLP (Multi-Layer Perceptron)</li>
+<li>SVM (Support Vector Machine)</li>
+<li>KNN (K-nearest neighbors)</li>
+<li>K-means clustering</li>
+<li>3 Optimization Algorithms (Hill-Climbing, Simulated Annealing, Genetic Algorithm)</li>
+<li>Decision Tree</li>
+<li>NMF (non-negative matrix factorization)</li>
+</ul>
+<h2 id="user-content-implementation-details" class="deep-link"><a href="#implementation-details">Implementation Details</a></h2>
+<p>SVM is using Sequential Minimal Optimization (SMO) for its training algorithm.</p>
+<p>For Decision Tree, Classification And Regression Tree (CART) was used for its building algorithm.</p>
+<h1 id="user-content-usage" class="deep-link"><a href="#usage">Usage</a></h1>
+<h2 id="user-content-logistic-regression" class="deep-link"><a href="#logistic-regression">Logistic Regression</a></h2>
+<pre><code><pre class="editor editor-colors"><div class="line"><span class="text"><span>var&#xA0;ml&#xA0;=&#xA0;require(&apos;machine_learning&apos;);</span></span></div><div class="line"><span class="text"><span>var&#xA0;x&#xA0;=&#xA0;[[1,1,1,0,0,0],</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;[1,0,1,0,0,0],</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;[1,1,1,0,0,0],</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;[0,0,1,1,1,0],</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;[0,0,1,1,0,0],</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;[0,0,1,1,1,0]];</span></span></div><div class="line"><span class="text"><span>var&#xA0;y&#xA0;=&#xA0;[[1,&#xA0;0],</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;[1,&#xA0;0],</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;[1,&#xA0;0],</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;[0,&#xA0;1],</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;[0,&#xA0;1],</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;[0,&#xA0;1]];</span></span></div><div class="line"><span class="text"><span>&#xA0;</span></span></div><div class="line"><span class="text"><span>var&#xA0;classifier&#xA0;=&#xA0;new&#xA0;ml.LogisticRegression({</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;&apos;input&apos;&#xA0;:&#xA0;x,</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;&apos;label&apos;&#xA0;:&#xA0;y,</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;&apos;n_in&apos;&#xA0;:&#xA0;6,</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;&apos;n_out&apos;&#xA0;:&#xA0;2</span></span></div><div class="line"><span class="text"><span>});</span></span></div><div class="line"><span class="text"><span>&#xA0;</span></span></div><div class="line"><span class="text"><span>classifier.set(&apos;log&#xA0;level&apos;,1);</span></span></div><div class="line"><span class="text"><span>&#xA0;</span></span></div><div class="line"><span class="text"><span>var&#xA0;training_epochs&#xA0;=&#xA0;800,&#xA0;lr&#xA0;=&#xA0;0.01;</span></span></div><div class="line"><span class="text"><span>&#xA0;</span></span></div><div class="line"><span class="text"><span>classifier.train({</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;&apos;lr&apos;&#xA0;:&#xA0;lr,</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;&apos;epochs&apos;&#xA0;:&#xA0;training_epochs</span></span></div><div class="line"><span class="text"><span>});</span></span></div><div class="line"><span class="text"><span>&#xA0;</span></span></div><div class="line"><span class="text"><span>x&#xA0;=&#xA0;[[1,&#xA0;1,&#xA0;0,&#xA0;0,&#xA0;0,&#xA0;0],</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;[0,&#xA0;0,&#xA0;0,&#xA0;1,&#xA0;1,&#xA0;0],</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;[1,&#xA0;1,&#xA0;1,&#xA0;1,&#xA0;1,&#xA0;0]];</span></span></div><div class="line"><span class="text"><span>&#xA0;</span></span></div><div class="line"><span class="text"><span>console.log(&quot;Result&#xA0;:&#xA0;&quot;,classifier.predict(x));</span></span></div></pre></code></pre>
+<h2 id="user-content-mlp-multi-layer-perceptron" class="deep-link"><a href="#mlp-multi-layer-perceptron">MLP (Multi-Layer Perceptron)</a></h2>
+<pre><code><pre class="editor editor-colors"><div class="line"><span class="text"><span>var&#xA0;ml&#xA0;=&#xA0;require(&apos;machine_learning&apos;);</span></span></div><div class="line"><span class="text"><span>var&#xA0;x&#xA0;=&#xA0;[[0.4,&#xA0;0.5,&#xA0;0.5,&#xA0;0.,&#xA0;&#xA0;0.,&#xA0;&#xA0;0.],</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;[0.5,&#xA0;0.3,&#xA0;&#xA0;0.5,&#xA0;0.,&#xA0;&#xA0;0.,&#xA0;&#xA0;0.],</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;[0.4,&#xA0;0.5,&#xA0;0.5,&#xA0;0.,&#xA0;&#xA0;0.,&#xA0;&#xA0;0.],</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;[0.,&#xA0;&#xA0;0.,&#xA0;&#xA0;0.5,&#xA0;0.3,&#xA0;0.5,&#xA0;0.],</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;[0.,&#xA0;&#xA0;0.,&#xA0;&#xA0;0.5,&#xA0;0.4,&#xA0;0.5,&#xA0;0.],</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;[0.,&#xA0;&#xA0;0.,&#xA0;&#xA0;0.5,&#xA0;0.5,&#xA0;0.5,&#xA0;0.]];</span></span></div><div class="line"><span class="text"><span>var&#xA0;y&#xA0;=&#xA0;[[1,&#xA0;0],</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;[1,&#xA0;0],</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;[1,&#xA0;0],</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;[0,&#xA0;1],</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;[0,&#xA0;1],</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;[0,&#xA0;1]];</span></span></div><div class="line"><span class="text"><span>&#xA0;</span></span></div><div class="line"><span class="text"><span>var&#xA0;mlp&#xA0;=&#xA0;new&#xA0;ml.MLP({</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;&apos;input&apos;&#xA0;:&#xA0;x,</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;&apos;label&apos;&#xA0;:&#xA0;y,</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;&apos;n_ins&apos;&#xA0;:&#xA0;6,</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;&apos;n_outs&apos;&#xA0;:&#xA0;2,</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;&apos;hidden_layer_sizes&apos;&#xA0;:&#xA0;[4,4,5]</span></span></div><div class="line"><span class="text"><span>});</span></span></div><div class="line"><span class="text"><span>&#xA0;</span></span></div><div class="line"><span class="text"><span>mlp.set(&apos;log&#xA0;level&apos;,1);&#xA0;//&#xA0;0&#xA0;:&#xA0;nothing,&#xA0;1&#xA0;:&#xA0;info,&#xA0;2&#xA0;:&#xA0;warning.</span></span></div><div class="line"><span class="text"><span>&#xA0;</span></span></div><div class="line"><span class="text"><span>mlp.train({</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;&apos;lr&apos;&#xA0;:&#xA0;0.6,</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;&apos;epochs&apos;&#xA0;:&#xA0;20000</span></span></div><div class="line"><span class="text"><span>});</span></span></div><div class="line"><span class="text"><span>&#xA0;</span></span></div><div class="line"><span class="text"><span>a&#xA0;=&#xA0;[[0.5,&#xA0;0.5,&#xA0;0.,&#xA0;0.,&#xA0;0.,&#xA0;0.],</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;[0.,&#xA0;0.,&#xA0;0.,&#xA0;0.5,&#xA0;0.5,&#xA0;0.],</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;[0.5,&#xA0;0.5,&#xA0;0.5,&#xA0;0.5,&#xA0;0.5,&#xA0;0.]];</span></span></div><div class="line"><span class="text"><span>&#xA0;</span></span></div><div class="line"><span class="text"><span>console.log(mlp.predict(a));</span></span></div></pre></code></pre>
+<h2 id="user-content-svm-support-vector-machine" class="deep-link"><a href="#svm-support-vector-machine">SVM (Support Vector Machine)</a></h2>
+<pre><code><pre class="editor editor-colors"><div class="line"><span class="text"><span>var&#xA0;ml&#xA0;=&#xA0;require(&apos;machine_learning&apos;);</span></span></div><div class="line"><span class="text"><span>var&#xA0;x&#xA0;=&#xA0;[[0.4,&#xA0;0.5,&#xA0;0.5,&#xA0;0.,&#xA0;&#xA0;0.,&#xA0;&#xA0;0.],</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;[0.5,&#xA0;0.3,&#xA0;&#xA0;0.5,&#xA0;0.,&#xA0;&#xA0;0.,&#xA0;&#xA0;0.01],</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;[0.4,&#xA0;0.8,&#xA0;0.5,&#xA0;0.,&#xA0;&#xA0;0.1,&#xA0;&#xA0;0.2],</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;[1.4,&#xA0;0.5,&#xA0;0.5,&#xA0;0.,&#xA0;&#xA0;0.,&#xA0;&#xA0;0.],</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;[1.5,&#xA0;0.3,&#xA0;&#xA0;0.5,&#xA0;0.,&#xA0;&#xA0;0.,&#xA0;&#xA0;0.],</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;[0.,&#xA0;0.9,&#xA0;1.5,&#xA0;0.,&#xA0;&#xA0;0.,&#xA0;&#xA0;0.],</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;[0.,&#xA0;0.7,&#xA0;1.5,&#xA0;0.,&#xA0;&#xA0;0.,&#xA0;&#xA0;0.],</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;[0.5,&#xA0;0.1,&#xA0;&#xA0;0.9,&#xA0;0.,&#xA0;&#xA0;-1.8,&#xA0;&#xA0;0.],</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;[0.8,&#xA0;0.8,&#xA0;0.5,&#xA0;0.,&#xA0;&#xA0;0.,&#xA0;&#xA0;0.],</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;[0.,&#xA0;&#xA0;0.9,&#xA0;&#xA0;0.5,&#xA0;0.3,&#xA0;0.5,&#xA0;0.2],</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;[0.,&#xA0;&#xA0;0.,&#xA0;&#xA0;0.5,&#xA0;0.4,&#xA0;0.5,&#xA0;0.],</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;[0.,&#xA0;&#xA0;0.,&#xA0;&#xA0;0.5,&#xA0;0.5,&#xA0;0.5,&#xA0;0.],</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;[0.3,&#xA0;0.6,&#xA0;0.7,&#xA0;1.7,&#xA0;&#xA0;1.3,&#xA0;-0.7],</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;[0.,&#xA0;&#xA0;0.,&#xA0;&#xA0;0.5,&#xA0;0.3,&#xA0;0.5,&#xA0;0.2],</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;[0.,&#xA0;&#xA0;0.,&#xA0;&#xA0;0.5,&#xA0;0.4,&#xA0;0.5,&#xA0;0.1],</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;[0.,&#xA0;&#xA0;0.,&#xA0;&#xA0;0.5,&#xA0;0.5,&#xA0;0.5,&#xA0;0.01],</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;[0.2,&#xA0;0.01,&#xA0;0.5,&#xA0;0.,&#xA0;&#xA0;0.,&#xA0;&#xA0;0.9],</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;[0.,&#xA0;&#xA0;0.,&#xA0;&#xA0;0.5,&#xA0;0.3,&#xA0;0.5,&#xA0;-2.3],</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;[0.,&#xA0;&#xA0;0.,&#xA0;&#xA0;0.5,&#xA0;0.4,&#xA0;0.5,&#xA0;4],</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;[0.,&#xA0;&#xA0;0.,&#xA0;&#xA0;0.5,&#xA0;0.5,&#xA0;0.5,&#xA0;-2]];</span></span></div><div class="line"><span class="text"><span>&#xA0;</span></span></div><div class="line"><span class="text"><span>var&#xA0;y&#xA0;=&#xA0;&#xA0;[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,1,1,1,1,1,1,1,1,1,1];</span></span></div><div class="line"><span class="text"><span>&#xA0;</span></span></div><div class="line"><span class="text"><span>var&#xA0;svm&#xA0;=&#xA0;new&#xA0;ml.SVM({</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;x&#xA0;:&#xA0;x,</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;y&#xA0;:&#xA0;y</span></span></div><div class="line"><span class="text"><span>});</span></span></div><div class="line"><span class="text"><span>&#xA0;</span></span></div><div class="line"><span class="text"><span>svm.train({</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;C&#xA0;:&#xA0;1.1,&#xA0;//&#xA0;default&#xA0;:&#xA0;1.0.&#xA0;C&#xA0;in&#xA0;SVM.</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;tol&#xA0;:&#xA0;1e-5,&#xA0;//&#xA0;default&#xA0;:&#xA0;1e-4.&#xA0;Higher&#xA0;tolerance&#xA0;--&gt;&#xA0;Higher&#xA0;precision</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;max_passes&#xA0;:&#xA0;20,&#xA0;//&#xA0;default&#xA0;:&#xA0;20.&#xA0;Higher&#xA0;max_passes&#xA0;--&gt;&#xA0;Higher&#xA0;precision</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;alpha_tol&#xA0;:&#xA0;1e-5,&#xA0;//&#xA0;default&#xA0;:&#xA0;1e-5.&#xA0;Higher&#xA0;alpha_tolerance&#xA0;--&gt;&#xA0;Higher&#xA0;precision</span></span></div><div class="line"><span class="text"><span>&#xA0;</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;kernel&#xA0;:&#xA0;{&#xA0;type:&#xA0;&quot;polynomial&quot;,&#xA0;c:&#xA0;1,&#xA0;d:&#xA0;5}</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;//&#xA0;default&#xA0;:&#xA0;{type&#xA0;:&#xA0;&quot;gaussian&quot;,&#xA0;sigma&#xA0;:&#xA0;1.0}</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;//&#xA0;{type&#xA0;:&#xA0;&quot;gaussian&quot;,&#xA0;sigma&#xA0;:&#xA0;0.5}</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;//&#xA0;{type&#xA0;:&#xA0;&quot;linear&quot;}&#xA0;//&#xA0;x*y</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;//&#xA0;{type&#xA0;:&#xA0;&quot;polynomial&quot;,&#xA0;c&#xA0;:&#xA0;1,&#xA0;d&#xA0;:&#xA0;8}&#xA0;//&#xA0;(x*y&#xA0;+&#xA0;c)^d</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;//&#xA0;Or&#xA0;you&#xA0;can&#xA0;use&#xA0;your&#xA0;own&#xA0;kernel.</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;//&#xA0;kernel&#xA0;:&#xA0;function(vecx,vecy)&#xA0;{&#xA0;return&#xA0;dot(vecx,vecy);}</span></span></div><div class="line"><span class="text"><span>});</span></span></div><div class="line"><span class="text"><span>&#xA0;</span></span></div><div class="line"><span class="text"><span>console.log(&quot;Predict&#xA0;:&#xA0;&quot;,svm.predict([1.3,&#xA0;&#xA0;1.7,&#xA0;&#xA0;0.5,&#xA0;0.5,&#xA0;1.5,&#xA0;0.4]));</span></span></div></pre></code></pre>
+<h2 id="user-content-knn-k-nearest-neighbors" class="deep-link"><a href="#knn-k-nearest-neighbors">KNN (K-nearest neighbors)</a></h2>
+<pre><code><pre class="editor editor-colors"><div class="line"><span class="text"><span>var&#xA0;ml&#xA0;=&#xA0;require(&apos;machine_learning&apos;);</span></span></div><div class="line"><span class="text"><span>&#xA0;</span></span></div><div class="line"><span class="text"><span>var&#xA0;data&#xA0;=&#xA0;[[1,0,1,0,1,1,1,0,0,0,0,0,1,0],</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;[1,1,1,1,1,1,1,0,0,0,0,0,1,0],</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;[1,1,1,0,1,1,1,0,1,0,0,0,1,0],</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;[1,0,1,1,1,1,1,1,0,0,0,0,1,0],</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;[1,1,1,1,1,1,1,0,0,0,0,0,1,1],</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;[0,0,1,0,0,1,0,0,1,0,1,1,1,0],</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;[0,0,0,0,0,0,1,1,1,0,1,1,1,0],</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;[0,0,0,0,0,1,1,1,0,1,0,1,1,0],</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;[0,0,1,0,1,0,1,1,1,1,0,1,1,1],</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;[0,0,0,0,0,0,1,1,1,1,1,1,1,1],</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;[1,0,1,0,0,1,1,1,1,1,0,0,1,0]</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;];</span></span></div><div class="line"><span class="text"><span>&#xA0;</span></span></div><div class="line"><span class="text"><span>var&#xA0;result&#xA0;=&#xA0;[23,12,23,23,45,70,123,73,146,158,64];</span></span></div><div class="line"><span class="text"><span>&#xA0;</span></span></div><div class="line"><span class="text"><span>var&#xA0;knn&#xA0;=&#xA0;new&#xA0;ml.KNN({</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;data&#xA0;:&#xA0;data,</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;result&#xA0;:&#xA0;result</span></span></div><div class="line"><span class="text"><span>});</span></span></div><div class="line"><span class="text"><span>&#xA0;</span></span></div><div class="line"><span class="text"><span>var&#xA0;y&#xA0;=&#xA0;knn.predict({</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;x&#xA0;:&#xA0;[0,0,0,0,0,0,0,1,1,1,1,1,1,1],</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;k&#xA0;:&#xA0;3,</span></span></div><div class="line"><span class="text"><span>&#xA0;</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;weightf&#xA0;:&#xA0;{type&#xA0;:&#xA0;&apos;gaussian&apos;,&#xA0;sigma&#xA0;:&#xA0;10.0},</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;//&#xA0;default&#xA0;:&#xA0;{type&#xA0;:&#xA0;&apos;gaussian&apos;,&#xA0;sigma&#xA0;:&#xA0;10.0}</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;//&#xA0;{type&#xA0;:&#xA0;&apos;none&apos;}.&#xA0;weight&#xA0;==&#xA0;1</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;//&#xA0;Or&#xA0;you&#xA0;can&#xA0;use&#xA0;your&#xA0;own&#xA0;weight&#xA0;f</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;//&#xA0;weightf&#xA0;:&#xA0;function(distance)&#xA0;{return&#xA0;1./distance}</span></span></div><div class="line"><span class="text"><span>&#xA0;</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;distance&#xA0;:&#xA0;{type&#xA0;:&#xA0;&apos;euclidean&apos;}</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;//&#xA0;default&#xA0;:&#xA0;{type&#xA0;:&#xA0;&apos;euclidean&apos;}</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;//&#xA0;{type&#xA0;:&#xA0;&apos;pearson&apos;}</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;//&#xA0;Or&#xA0;you&#xA0;can&#xA0;use&#xA0;your&#xA0;own&#xA0;distance&#xA0;function</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;//&#xA0;distance&#xA0;:&#xA0;function(vecx,&#xA0;vecy)&#xA0;{return&#xA0;Math.abs(dot(vecx,vecy));}</span></span></div><div class="line"><span class="text"><span>});</span></span></div><div class="line"><span class="text"><span>&#xA0;</span></span></div><div class="line"><span class="text"><span>console.log(y);</span></span></div></pre></code></pre>
+<h2 id="user-content-k-means-clustering" class="deep-link"><a href="#k-means-clustering">K-means clustering</a></h2>
+<pre><code><pre class="editor editor-colors"><div class="line"><span class="text"><span>var&#xA0;ml&#xA0;=&#xA0;require(&apos;machine_learning&apos;);</span></span></div><div class="line"><span class="text"><span>&#xA0;</span></span></div><div class="line"><span class="text"><span>var&#xA0;data&#xA0;=&#xA0;[[1,0,1,0,1,1,1,0,0,0,0,0,1,0],</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;[1,1,1,1,1,1,1,0,0,0,0,0,1,0],</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;[1,1,1,0,1,1,1,0,1,0,0,0,1,0],</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;[1,0,1,1,1,1,1,1,0,0,0,0,1,0],</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;[1,1,1,1,1,1,1,0,0,0,0,0,1,1],</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;[0,0,1,0,0,1,0,0,1,0,1,1,1,0],</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;[0,0,0,0,0,0,1,1,1,0,1,1,1,0],</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;[0,0,0,0,0,1,1,1,0,1,0,1,1,0],</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;[0,0,1,0,1,0,1,1,1,1,0,1,1,1],</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;[0,0,0,0,0,0,1,1,1,1,1,1,1,1],</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;[1,0,1,0,0,1,1,1,1,1,0,0,1,0]</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;];</span></span></div><div class="line"><span class="text"><span>&#xA0;</span></span></div><div class="line"><span class="text"><span>var&#xA0;result&#xA0;=&#xA0;ml.kmeans.cluster({</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;data&#xA0;:&#xA0;data,</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;k&#xA0;:&#xA0;4,</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;epochs:&#xA0;100,</span></span></div><div class="line"><span class="text"><span>&#xA0;</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;distance&#xA0;:&#xA0;{type&#xA0;:&#xA0;&quot;pearson&quot;}</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;//&#xA0;default&#xA0;:&#xA0;{type&#xA0;:&#xA0;&apos;euclidean&apos;}</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;//&#xA0;{type&#xA0;:&#xA0;&apos;pearson&apos;}</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;//&#xA0;Or&#xA0;you&#xA0;can&#xA0;use&#xA0;your&#xA0;own&#xA0;distance&#xA0;function</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;//&#xA0;distance&#xA0;:&#xA0;function(vecx,&#xA0;vecy)&#xA0;{return&#xA0;Math.abs(dot(vecx,vecy));}</span></span></div><div class="line"><span class="text"><span>});</span></span></div><div class="line"><span class="text"><span>&#xA0;</span></span></div><div class="line"><span class="text"><span>console.log(&quot;clusters&#xA0;:&#xA0;&quot;,&#xA0;result.clusters);</span></span></div><div class="line"><span class="text"><span>console.log(&quot;means&#xA0;:&#xA0;&quot;,&#xA0;result.means);</span></span></div></pre></code></pre>
+<h2 id="user-content-hill-climbing" class="deep-link"><a href="#hill-climbing">Hill-Climbing</a></h2>
+<pre><code><pre class="editor editor-colors"><div class="line"><span class="text"><span>var&#xA0;ml&#xA0;=&#xA0;require(&apos;machine_learning&apos;);</span></span></div><div class="line"><span class="text"><span>&#xA0;</span></span></div><div class="line"><span class="text"><span>var&#xA0;costf&#xA0;=&#xA0;function(vec)&#xA0;{</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;var&#xA0;cost&#xA0;=&#xA0;0;</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;for(var&#xA0;i&#xA0;=0;&#xA0;i&lt;14;i++)&#xA0;{&#xA0;//&#xA0;15-dimensional&#xA0;vector</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;cost&#xA0;+=&#xA0;(0.5*i*vec[i]*Math.exp(-vec[i]+vec[i+1])/vec[i+1])</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;}</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;cost&#xA0;+=&#xA0;(3.*vec[14]/vec[0]);</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;return&#xA0;cost;</span></span></div><div class="line"><span class="text"><span>};</span></span></div><div class="line"><span class="text"><span>&#xA0;</span></span></div><div class="line"><span class="text"><span>var&#xA0;domain&#xA0;=&#xA0;[];</span></span></div><div class="line"><span class="text"><span>for(var&#xA0;i=0;i&lt;15;i++)</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;domain.push([1,70]);&#xA0;//&#xA0;domain[idx][0]&#xA0;:&#xA0;minimum&#xA0;of&#xA0;vec[idx],&#xA0;domain[idx][1]&#xA0;:&#xA0;maximum&#xA0;of&#xA0;vec[idx].</span></span></div><div class="line"><span class="text"><span>&#xA0;</span></span></div><div class="line"><span class="text"><span>var&#xA0;vec&#xA0;=&#xA0;ml.optimize.hillclimb({</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;domain&#xA0;:&#xA0;domain,</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;costf&#xA0;:&#xA0;costf</span></span></div><div class="line"><span class="text"><span>});</span></span></div><div class="line"><span class="text"><span>&#xA0;</span></span></div><div class="line"><span class="text"><span>console.log(&quot;vec&#xA0;:&#xA0;&quot;,vec);</span></span></div><div class="line"><span class="text"><span>console.log(&quot;cost&#xA0;:&#xA0;&quot;,costf(vec));</span></span></div></pre></code></pre>
+<h2 id="user-content-simulated-annealing" class="deep-link"><a href="#simulated-annealing">Simulated Annealing</a></h2>
+<pre><code><pre class="editor editor-colors"><div class="line"><span class="text"><span>var&#xA0;ml&#xA0;=&#xA0;require(&apos;machine_learning&apos;);</span></span></div><div class="line"><span class="text"><span>&#xA0;</span></span></div><div class="line"><span class="text"><span>var&#xA0;costf&#xA0;=&#xA0;function(vec)&#xA0;{</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;var&#xA0;cost&#xA0;=&#xA0;0;</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;for(var&#xA0;i&#xA0;=0;&#xA0;i&lt;14;i++)&#xA0;{&#xA0;//&#xA0;15-dimensional&#xA0;vector</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;cost&#xA0;+=&#xA0;(0.5*i*vec[i]*Math.exp(-vec[i]+vec[i+1])/vec[i+1])</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;}</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;cost&#xA0;+=&#xA0;(3.*vec[14]/vec[0]);</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;return&#xA0;cost;</span></span></div><div class="line"><span class="text"><span>};</span></span></div><div class="line"><span class="text"><span>&#xA0;</span></span></div><div class="line"><span class="text"><span>var&#xA0;domain&#xA0;=&#xA0;[];</span></span></div><div class="line"><span class="text"><span>for(var&#xA0;i=0;i&lt;15;i++)</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;domain.push([1,70]);&#xA0;//&#xA0;domain[idx][0]&#xA0;:&#xA0;minimum&#xA0;of&#xA0;vec[idx],&#xA0;domain[idx][1]&#xA0;:&#xA0;maximum&#xA0;of&#xA0;vec[idx].</span></span></div><div class="line"><span class="text"><span>&#xA0;</span></span></div><div class="line"><span class="text"><span>var&#xA0;vec&#xA0;=&#xA0;ml.optimize.anneal({</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;domain&#xA0;:&#xA0;domain,</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;costf&#xA0;:&#xA0;costf,</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;temperature&#xA0;:&#xA0;100000.0,</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;cool&#xA0;:&#xA0;0.999,</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;step&#xA0;:&#xA0;4</span></span></div><div class="line"><span class="text"><span>});</span></span></div><div class="line"><span class="text"><span>&#xA0;</span></span></div><div class="line"><span class="text"><span>console.log(&quot;vec&#xA0;:&#xA0;&quot;,vec);</span></span></div><div class="line"><span class="text"><span>console.log(&quot;cost&#xA0;:&#xA0;&quot;,costf(vec));</span></span></div></pre></code></pre>
+<h2 id="user-content-genetic-algorithm" class="deep-link"><a href="#genetic-algorithm">Genetic Algorithm</a></h2>
+<pre><code><pre class="editor editor-colors"><div class="line"><span class="text"><span>var&#xA0;ml&#xA0;=&#xA0;require(&apos;machine_learning&apos;);</span></span></div><div class="line"><span class="text"><span>&#xA0;</span></span></div><div class="line"><span class="text"><span>var&#xA0;costf&#xA0;=&#xA0;function(vec)&#xA0;{</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;var&#xA0;cost&#xA0;=&#xA0;0;</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;for(var&#xA0;i&#xA0;=0;&#xA0;i&lt;14;i++)&#xA0;{&#xA0;//&#xA0;15-dimensional&#xA0;vector</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;cost&#xA0;+=&#xA0;(0.5*i*vec[i]*Math.exp(-vec[i]+vec[i+1])/vec[i+1])</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;}</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;cost&#xA0;+=&#xA0;(3.*vec[14]/vec[0]);</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;return&#xA0;cost;</span></span></div><div class="line"><span class="text"><span>};</span></span></div><div class="line"><span class="text"><span>&#xA0;</span></span></div><div class="line"><span class="text"><span>var&#xA0;domain&#xA0;=&#xA0;[];</span></span></div><div class="line"><span class="text"><span>for(var&#xA0;i=0;i&lt;15;i++)</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;domain.push([1,70]);&#xA0;//&#xA0;domain[idx][0]&#xA0;:&#xA0;minimum&#xA0;of&#xA0;vec[idx],&#xA0;domain[idx][1]&#xA0;:&#xA0;maximum&#xA0;of&#xA0;vec[idx].</span></span></div><div class="line"><span class="text"><span>&#xA0;</span></span></div><div class="line"><span class="text"><span>var&#xA0;vec&#xA0;=&#xA0;ml.optimize.genetic({</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;domain&#xA0;:&#xA0;domain,</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;costf&#xA0;:&#xA0;costf,</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;population&#xA0;:&#xA0;50,</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;elite&#xA0;:&#xA0;2,&#xA0;//&#xA0;elitism.&#xA0;number&#xA0;of&#xA0;elite&#xA0;chromosomes.</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;epochs&#xA0;:&#xA0;300,</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;q&#xA0;:&#xA0;0.3&#xA0;//&#xA0;Rank-Based&#xA0;Fitness&#xA0;Assignment.&#xA0;fitness&#xA0;=&#xA0;q&#xA0;*&#xA0;(1-q)^(rank-1)</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;//&#xA0;higher&#xA0;q&#xA0;--&gt;&#xA0;higher&#xA0;selection&#xA0;pressure</span></span></div><div class="line"><span class="text"><span>});</span></span></div><div class="line"><span class="text"><span>&#xA0;</span></span></div><div class="line"><span class="text"><span>console.log(&quot;vec&#xA0;:&#xA0;&quot;,vec);</span></span></div><div class="line"><span class="text"><span>console.log(&quot;cost&#xA0;:&#xA0;&quot;,costf(vec));</span></span></div></pre></code></pre>
+<h2 id="user-content-decision-tree" class="deep-link"><a href="#decision-tree">Decision Tree</a></h2>
+<pre><code><pre class="editor editor-colors"><div class="line"><span class="text"><span>//&#xA0;Reference&#xA0;:&#xA0;&apos;Programming&#xA0;Collective&#xA0;Intellignece&apos;&#xA0;by&#xA0;Toby&#xA0;Segaran.</span></span></div><div class="line"><span class="text"><span>&#xA0;</span></span></div><div class="line"><span class="text"><span>var&#xA0;ml&#xA0;=&#xA0;require(&apos;machine_learning&apos;);</span></span></div><div class="line"><span class="text"><span>&#xA0;</span></span></div><div class="line"><span class="text"><span>var&#xA0;data&#xA0;=[[&apos;slashdot&apos;,&apos;USA&apos;,&apos;yes&apos;,18],</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;[&apos;google&apos;,&apos;France&apos;,&apos;yes&apos;,23],</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;[&apos;digg&apos;,&apos;USA&apos;,&apos;yes&apos;,24],</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;[&apos;kiwitobes&apos;,&apos;France&apos;,&apos;yes&apos;,23],</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;[&apos;google&apos;,&apos;UK&apos;,&apos;no&apos;,21],</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;[&apos;(direct)&apos;,&apos;New&#xA0;Zealand&apos;,&apos;no&apos;,12],</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;[&apos;(direct)&apos;,&apos;UK&apos;,&apos;no&apos;,21],</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;[&apos;google&apos;,&apos;USA&apos;,&apos;no&apos;,24],</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;[&apos;slashdot&apos;,&apos;France&apos;,&apos;yes&apos;,19],</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;[&apos;digg&apos;,&apos;USA&apos;,&apos;no&apos;,18,],</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;[&apos;google&apos;,&apos;UK&apos;,&apos;no&apos;,18,],</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;[&apos;kiwitobes&apos;,&apos;UK&apos;,&apos;no&apos;,19],</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;[&apos;digg&apos;,&apos;New&#xA0;Zealand&apos;,&apos;yes&apos;,12],</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;[&apos;slashdot&apos;,&apos;UK&apos;,&apos;no&apos;,21],</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;[&apos;google&apos;,&apos;UK&apos;,&apos;yes&apos;,18],</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;[&apos;kiwitobes&apos;,&apos;France&apos;,&apos;yes&apos;,19]];</span></span></div><div class="line"><span class="text"><span>var&#xA0;result&#xA0;=&#xA0;[&apos;None&apos;,&apos;Premium&apos;,&apos;Basic&apos;,&apos;Basic&apos;,&apos;Premium&apos;,&apos;None&apos;,&apos;Basic&apos;,&apos;Premium&apos;,&apos;None&apos;,&apos;None&apos;,&apos;None&apos;,&apos;None&apos;,&apos;Basic&apos;,&apos;None&apos;,&apos;Basic&apos;,&apos;Basic&apos;];</span></span></div><div class="line"><span class="text"><span>&#xA0;</span></span></div><div class="line"><span class="text"><span>var&#xA0;dt&#xA0;=&#xA0;new&#xA0;ml.DecisionTree({</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;data&#xA0;:&#xA0;data,</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;result&#xA0;:&#xA0;result</span></span></div><div class="line"><span class="text"><span>});</span></span></div><div class="line"><span class="text"><span>&#xA0;</span></span></div><div class="line"><span class="text"><span>dt.build();</span></span></div><div class="line"><span class="text"><span>&#xA0;</span></span></div><div class="line"><span class="text"><span>//&#xA0;dt.print();</span></span></div><div class="line"><span class="text"><span>&#xA0;</span></span></div><div class="line"><span class="text"><span>console.log(&quot;Classify&#xA0;:&#xA0;&quot;,&#xA0;dt.classify([&apos;(direct)&apos;,&apos;USA&apos;,&apos;yes&apos;,5]));</span></span></div><div class="line"><span class="text"><span>&#xA0;</span></span></div><div class="line"><span class="text"><span>dt.prune(1.0);&#xA0;//&#xA0;1.0&#xA0;:&#xA0;mingain.</span></span></div><div class="line"><span class="text"><span>dt.print();</span></span></div></pre></code></pre>
+<h2 id="user-content-nmf-non-negative-matrix-factorization" class="deep-link"><a href="#nmf-non-negative-matrix-factorization">NMF (Non-negative matrix factorization)</a></h2>
+<pre><code><pre class="editor editor-colors"><div class="line"><span class="text"><span>var&#xA0;ml&#xA0;=&#xA0;require(&apos;machine_learning&apos;);</span></span></div><div class="line"><span class="text"><span>var&#xA0;matrix&#xA0;=&#xA0;[[22,28],</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;[49,64]];</span></span></div><div class="line"><span class="text"><span>&#xA0;</span></span></div><div class="line"><span class="text"><span>var&#xA0;result&#xA0;=&#xA0;ml.nmf.factorize({</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;matrix&#xA0;:&#xA0;matrix,</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;features&#xA0;:&#xA0;3,</span></span></div><div class="line"><span class="text"><span>&#xA0;&#xA0;&#xA0;&#xA0;epochs&#xA0;:&#xA0;100</span></span></div><div class="line"><span class="text"><span>});</span></span></div><div class="line"><span class="text"><span>&#xA0;</span></span></div><div class="line"><span class="text"><span>console.log(&quot;First&#xA0;Matrix&#xA0;:&#xA0;&quot;,result[0]);</span></span></div><div class="line"><span class="text"><span>console.log(&quot;Second&#xA0;Matrix&#xA0;:&#xA0;&quot;,result[1]);</span></span></div></pre></code></pre>
+<h2 id="user-content-license" class="deep-link"><a href="#license">License</a></h2>
+<p>(The MIT License)</p>
+<p>Copyright (c) 2014 Joon-Ku Kang &lt;junku901@gmail.com&gt;</p>
+<p>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &apos;Software&apos;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</p>
+<p>The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</p>
+<p>THE SOFTWARE IS PROVIDED &apos;AS IS&apos;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
+
+  </div>
+
+</div>
+
+<div class="sidebar">
+
+    <div class="promotion" data-promotion-id="525" data-promotion-spot="packagePage"><div class="marketing">
+<h3 id="marketing-texthed"><a href="http://npm.me/e0" title="npm On-Site">Private npm Registry</a></h3>
+
+<p>Host your own private, on-premises npm registry with npm On-Site.  <a href="http://npm.me/e0" title="npm On-Site">Learn how&hellip;</a></p></div></div>
+
+    <div class="autoselect-wrapper npm-install icon-download">
+      <input type="text" value="npm i machine_learning" readonly>
+      <p><a href="/package/machine_learning/tutorial">how? learn more</a></p>
+    </div>
+
+  <ul class="box">
+
+      <li class="last-publisher">
+          <a href="/~junku901">
+            <img src="https://s.gravatar.com/avatar/b9256cfe4760836d384dc5a84949be29?size&#x3D;100&amp;default&#x3D;retro" alt="junku901" />
+            <span>junku901</span>
+          </a>
+          published
+          <span data-date="2014-05-30T04:31:55.489Z" data-date-format="relative">
+            2014-05-30T04:31:55.489Z
+          </span>
+      </li>
+
+    <li>
+      <strong>0.0.8</strong>
+      is the latest
+        of 8 releases
+    </li>
+
+      <li>
+        <a href="https://github.com/junku901/machine_learning">github.com/junku901/machine_learning</a>
+      </li>
+
+
+      <li>
+          <a href="http://spdx.org/licenses/MIT">MIT</a>
+          <img class="osi" alt="Licensed on OSI-approved terms" src="/static/images/osi.svg">®
+      </li>
+
+  </ul>
+
+    <h3 title="collaborators">
+      <a href="/package/machine_learning/access">Collaborators</a>
+    </h3>
+
+    <ul class="humans collaborators">
+        <li>
+            <a href="/~junku901" rel="tipsy" title="junku901">
+                <img src="https://s.gravatar.com/avatar/b9256cfe4760836d384dc5a84949be29?size&#x3D;100&amp;default&#x3D;retro" alt="junku901">
+            </a>
+        </li>
+
+
+    </ul>
+
+    <h3>Stats</h3>
+    <ul class="box">
+
+        <li>
+          <strong class="pretty-number daily-downloads">19</strong>
+          downloads in the last day
+        </li>
+        <li>
+          <strong class="pretty-number weekly-downloads">138</strong>
+          downloads in the last week
+        </li>
+        <li>
+          <strong class="pretty-number monthly-downloads">267</strong>
+          downloads in the last month
+        </li>
+
+        <li id="issues" data-ghapi="https://api.github.com/repos/junku901/machine_learning">
+          <span class="original">Have an issue? <a href="https://github.com/junku901/machine_learning/issues">File it.</a></span>
+            <span class="enhanced" style="display:none">
+              <a href="https://github.com/junku901/machine_learning/issues"></a> on GitHub
+            </span>
+        </li>
+
+        <li id="pull_requests" style="display:none">
+          <a href="https://github.com/junku901/machine_learning/pulls"></a> on GitHub
+        </li>
+
+    </ul>
+
+      <h3>Try it out</h3>
+      <ul class="box">
+        <li class="tonicdev"><a href="https://tonicdev.com/npm/machine_learning" target="_blank">Test machine_learning in your browser.</a></li>
+      </ul>
+
+  <h3>Keywords</h3>
+  <p class="list-of-links">
+        <a href="/browse/keyword/non-negative matrix factorization">non-negative matrix factorization</a>, 
+        <a href="/browse/keyword/nmf">nmf</a>, 
+        <a href="/browse/keyword/genetic algorithm">genetic algorithm</a>, 
+        <a href="/browse/keyword/decision tree">decision tree</a>, 
+        <a href="/browse/keyword/k nearest neighbors">k nearest neighbors</a>, 
+        <a href="/browse/keyword/knn">knn</a>, 
+        <a href="/browse/keyword/kmeans">kmeans</a>, 
+        <a href="/browse/keyword/support vector machine">support vector machine</a>, 
+        <a href="/browse/keyword/svm">svm</a>, 
+        <a href="/browse/keyword/neural network">neural network</a>, 
+        <a href="/browse/keyword/ml">ml</a>, 
+        <a href="/browse/keyword/machine learning">machine learning</a>
+  </p>
+
+  <h3>Dependencies </h3>
+  <p class="list-of-links">
+      None
+  </p>
+
+    <h3><a href="/browse/depended/machine_learning">Dependents</a></h3>
+    <p class="list-of-links dependents">
+          <a href="/package/codeflow">codeflow</a>    </p>
+
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "machine_learning",
+      "description": "Machine learning library for Node.js. You can also use this library in browser.",
+      "url": "https://www.npmjs.com/package/machine_learning",
+      "keywords": "non-negative matrix factorization,nmf,genetic algorithm,decision tree,k nearest neighbors,knn,kmeans,support vector machine,svm,neural network,ml,machine learning",
+      "applicationCategory": "DeveloperApplication",
+      "offers": {
+         "@type": "Offer",
+         "price": "0.00"
+      }
+    }
+  </script>
+
+    <div class="hiring-container" data-template="sidebar"></div>
+
+</div>
+
+
+    </div>
+
+  <footer class="pane bg-npm-navy-1">
+  
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+          <h3 class="h4 type-npm-pastel-3">You Need Help</h3>
+          <hr class="divider-1">
+          <ul class="list-unstyled h6 em-default">
+            <li class="pbl"><a class="type-neutral-11" href="https://docs.npmjs.com">Documentation</a></li>
+            <li class="pbl"><a class="type-neutral-11" href="/support">Support / Contact Us</a></li>
+            <li class="pbl"><a class="type-neutral-11" href="http://status.npmjs.org/">Registry Status</a></li>
+            <li class="pbl"><a class="type-neutral-11" href="https://github.com/npm/newww/issues">Website Issues</a></li>
+            <li class="pbl"><a class="type-neutral-11" href="https://github.com/npm/npm/issues">CLI Issues</a></li>
+            <li class="pbl"><a class="type-neutral-11" href="/policies/security">Security</a></li>
+          </ul>
+        </div>
+  
+        <div class="col-md-6 col-md-offset-1">
+          <h3 class="h4 type-npm-pastel-3">About npm</h3>
+          <hr class="divider-1">
+          <ul class="list-unstyled h6 em-default">
+            <li class="pbl"><a class="type-neutral-11" href="/about">About npm, Inc</a></li>
+            <li class="pbl"><a class="type-neutral-11" href="/jobs">Jobs</a></li>
+            <li class="pbl"><a class="type-neutral-11" href="/npm-weekly">npm Weekly</a></li>
+            <li class="pbl"><a class="type-neutral-11" href="http://blog.npmjs.org">Blog</a></li>
+            <li class="pbl"><a class="type-neutral-11" href="https://twitter.com/npmjs">Twitter</a></li>
+            <li class="pbl"><a class="type-neutral-11" href="https://github.com/npm">GitHub</a></li>
+          </ul>
+        </div>
+  
+        <div class="col-md-6 col-md-offset-1">
+          <h3 class="h4 type-npm-pastel-3">Legal Stuff</h3>
+          <hr class="divider-1">
+          <ul class="list-unstyled h6 em-default">
+            <li class="pbl"><a class="type-neutral-11" href="/policies/terms">Terms of Use</a></li>
+            <li class="pbl"><a class="type-neutral-11" href="/policies/conduct">Code of Conduct</a></li>
+            <li class="pbl"><a class="type-neutral-11" href="/policies/disputes">Package Name Disputes</a></li>
+            <li class="pbl"><a class="type-neutral-11" href="/policies/privacy">Privacy Policy</a></li>
+            <li class="pbl"><a class="type-neutral-11" href="/policies/receiving-reports">Reporting Abuse</a></li>
+            <li class="pbl"><a class="type-neutral-11" href="/policies/">Other policies</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="txt-c container">
+      <a class="npm-loves-you type-neutral-11" href="/">
+        npm loves you
+      </a>
+    </div>
+  </footer>
+
+  
+  <script defer src="/static/js/vendor.min.a3c53b90.js"></script>
+  <script defer async src="https://cdn.optimizely.com/js/3318080746.js"></script>
+  <script defer async src='//img.en25.com/i/elqCfg.min.js'></script><!-- Eloqua -->
+</body>
+</html>
+
+<!-- pid&#x3D;20185 63597af6aec904274e7247f6674d1697d63b3392 https://www.npmjs.com www-14-west.internal.npmjs.com  -->

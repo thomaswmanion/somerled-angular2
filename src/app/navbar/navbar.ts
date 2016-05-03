@@ -9,6 +9,8 @@ import {Location, Router} from 'angular2/router';
 
 export class Navbar {
 	showNavItems: boolean = false;
+	headerImage: String = require('../images/header.png');
+
 	constructor(private location: Location, private router: Router) {}
 
 	isLocationEqual(loc: string): boolean {

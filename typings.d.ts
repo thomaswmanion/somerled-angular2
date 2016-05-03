@@ -7,3 +7,6 @@ declare module 'masonry-layout'{
 
 	export = Masonry;
 }
+
+declare var FB: any;
+declare var fb: any;
