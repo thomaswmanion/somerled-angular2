@@ -14,7 +14,7 @@
         "tsd_typings"
     ],
     "files": [
-        "typings/main.d.ts",
+        "typings/browser.d.ts",
         "typings.d.ts"
     ]
 }

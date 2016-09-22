@@ -1,6 +1,6 @@
-import {Injectable} from "angular2/core";
+import {Injectable} from "@angular/core";
 import {Subject, BehaviorSubject} from "rxjs";
-import {Headers} from "angular2/http";
+import {Headers} from "@angular/http";
 
 @Injectable()
 export class FacebookService {

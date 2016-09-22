@@ -30,7 +30,7 @@ config.devServer = {
 };
 
 config.entry = {
-    app: path.join('./src/app/app.js'),
+    app: path.join('./src/app/app.ts'),
     head: path.join('./src/app/head.js')
 };
 

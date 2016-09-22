@@ -10,3 +10,16 @@ declare module 'masonry-layout'{
 
 declare var FB: any;
 declare var fb: any;
+
+
+interface Window {
+	Outlayer: any;
+	getSize: any;
+	fbAsyncInit: any;
+	fb: any;
+	FB: any;
+}
+
+interface module {
+	hot: any;
+}

@@ -18,7 +18,7 @@
 9 verbose stack     at maybeClose (internal/child_process.js:818:16)
 9 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
 10 verbose pkgid somerled-angular2@1.0.0
-11 verbose cwd /Users/thomas.w.manion/git/somerled-angular2/src
+11 verbose cwd /Users/thomas.w.manion/git/somerled-@angular/src
 12 error Darwin 15.3.0
 13 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "run" "dev"
 14 error node v4.2.3

@@ -1,16 +1,13 @@
-import {Component} from 'angular2/core';
-import {NgFor} from 'angular2/common';
-import {RouterLink} from 'angular2/router';
+import {Component} from '@angular/core';
+import {NgFor} from '@angular/common';
 import {Subject, BehaviorSubject} from "rxjs";
 import {FacebookService} from '../facebook/facebook.service';
-import {DateFormatPipe} from 'angular2-moment';
 
 @Component({
 	selector: 'home',
 	template: require('./home.html'),
-	pipes: [DateFormatPipe],
-	//styles: [require('!!raw!sass!./home.scss')],
-	directives: [RouterLink]
+	pipes: [],
+	//styles: [require('!!raw!sass!./home.scss')]
 })
 export class Home {
 	cover: String = require('../images/cover.jpg')

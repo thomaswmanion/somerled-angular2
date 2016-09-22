@@ -4,5 +4,3 @@
 /// <reference path="main/ambient/ng2/index.d.ts" />
 /// <reference path="main/ambient/node/index.d.ts" />
 /// <reference path="main/ambient/serve-static/index.d.ts" />
-/// <reference path="main/ambient/zone.js/index.d.ts" />
-/// <reference path="main/definitions/moment/index.d.ts" />

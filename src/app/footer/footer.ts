@@ -1,5 +1,5 @@
-import {Component} from 'angular2/core';
-import {Location, Router} from 'angular2/router';
+import {Component} from '@angular/core';
+import {Router} from '@angular/router';
 
 @Component({
 	selector: 'footer',
@@ -8,10 +8,10 @@ import {Location, Router} from 'angular2/router';
 
 export class Footer {
 	year: number = new Date().getFullYear();
-	constructor(private location: Location, private router: Router) { }
+	constructor(private router: Router) { }
 
 	isLocationEqual(loc: string): boolean {
-		return this.location.path() === loc;
+		return window.location.pathname === loc;
 	}
 
 	goTo(loc: string): void {

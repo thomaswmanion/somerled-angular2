@@ -4,13 +4,13 @@
             <br>
             <h1 class="ui medium header center aligned">Somerled Shetland Sheepdogs</h1>
             <hr>
-            <div class="ui feed" *ngFor="#feedItem of facebookService.feed | async">
+            <div class="ui feed" *ngFor="let feedItem of facebookService.feed | async">
                 <div class="event">
                     <div class="content">
                         <img src="{{feedItem.full_picture}}" class="image">
                         <div class="summary">
                             {{feedItem.message}}
-                            <div class="date">{{feedItem.created_time | amDateFormat:'LL'}}</div>
+                            <div class="date">{{feedItem.created_time | date}}</div>
                         </div>
                         <div class="meta">
                             <a class="like">
@@ -20,7 +20,7 @@
                     </div>
                 </div>
             </div>
-            <div class="feed" *ngFor="#feedItem of facebookService.feed | async">
+            <div class="feed" *ngFor="let feedItem of facebookService.feed | async">
                 <p>{{feedItem | json}}</p>
             </div>
         </div>

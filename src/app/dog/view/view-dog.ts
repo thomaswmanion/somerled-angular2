@@ -1,7 +1,7 @@
 declare var $: any;
 
-import {Component, OnInit} from 'angular2/core';
-import {Router, RouteParams} from 'angular2/router';
+import {Component, OnInit} from '@angular/core';
+import {Route, RouteSegment, OnActivate, Tree, Router} from '@angular/router';
 
 import {Dog} from '../dog';
 import {DogService} from '../dog.service';
@@ -12,15 +12,15 @@ import {DogService} from '../dog.service';
 	providers: [DogService],
 	styles: [require('!!raw!less!./view-dog.less')]
 })
-
-export class ViewDog implements OnInit {
+export class ViewDog implements OnInit, OnActivate {
 	dog: Dog;
 	curImage: string;
 	timestamp: number;
-	constructor(private params: RouteParams, private dogService: DogService, private router: Router) {}
+	segment: RouteSegment
+	constructor(private dogService: DogService, private router: Router) {}
 
 	ngOnInit() {
-		var name = this.params.get('name');
+		var name = this.segment.getParam('name');
 		this.dog = this.dogService.findDog(name);
 		if (!this.dog) {
 			this.router.navigate(['/Home']);
@@ -32,5 +32,9 @@ export class ViewDog implements OnInit {
 	viewImage(img) {
 		this.curImage = img;
 		$('.ui.basic.modal.' + this.timestamp).modal('show');
+	}
+	
+	routerOnActivate(segment: RouteSegment) {
+		this.segment = segment;
 	}
 }
