@@ -1,1 +1,0 @@
-# Somerled Angular 2
