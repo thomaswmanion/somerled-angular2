@@ -1,0 +1,15 @@
+.grid-sizer,
+.grid-item {
+    float: left;
+    width: 300px;
+    max-width: 100%;
+    position: inherit !important;
+}
+
+.dog-main-image {
+    max-width: 100%;
+}
+
+.dog-image-out {
+    padding: 10px;
+}

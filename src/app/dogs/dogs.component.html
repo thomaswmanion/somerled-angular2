@@ -1,0 +1,10 @@
+<div id="dogs-container">
+  <masonry [options]="masonryOptions">
+    <masonry-brick class="grid-item" *ngFor="let d of dogs | filterGender:gender">
+      <div class="dog-image-out">
+        <h2>{{d.name}}</h2>
+        <img class="dog-main-image" src="{{d.coverImage}}">
+      </div>
+    </masonry-brick>
+  </masonry>
+</div>

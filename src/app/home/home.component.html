@@ -1,0 +1,13 @@
+<div id="feed-container">
+  <div *ngFor="let f of feed">
+    <h2>{{f.createdTime | date}}</h2>
+    <p *ngIf="f.message">{{f.message}}</p>
+
+    <div class="card-columns" [style.column-count]="columnCount(f.images)">
+      <div *ngFor="let img of f.images">
+        <img class="p100 card-img img-fluid" src="{{img.src}}" [style.max-height]="img.maxHeightString()" [style.max-width]="img.maxWidthString()">
+      </div>
+    </div>
+    <hr>
+  </div>
+</div>
